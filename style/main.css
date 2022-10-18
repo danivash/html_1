@@ -1,0 +1,99 @@
+body {
+  font-size: 16px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.65;
+  font-family: "Lato", sans-serif;
+  overflow-x: hidden;
+  opacity: 1; }
+
+/*btns */
+.btn {
+  font-weight: 700;
+  text-decoration: none;
+  color: #722ED1;
+  border: 1px solid #722ED1;
+  border-radius: 20px;
+  padding: 5px 30px;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease; }
+  .btn:hover {
+    background-color: #722ED1;
+    color: #fff; }
+
+.btn-classic {
+  background-color: #F7F1FF;
+  font-weight: 700;
+  color: #722ED1;
+  border: 1px solid #722ED1;
+  border-radius: 20px;
+  padding: 10px 25px;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease; }
+  .btn-classic:hover {
+    color: #fff; }
+
+/*img */
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto; }
+
+.header-menu {
+  background-image: url("../images/BG.png");
+  height: 800px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+header .container {
+  padding-top: 24px;
+  max-width: 960px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  header .container > .logo {
+    display: block;
+    width: 48px;
+    height: 48px; }
+    header .container > .logo > img {
+      width: 100%; }
+  header .container .right-side-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    header .container .right-side-header .menu-header {
+      list-style-type: none; }
+      header .container .right-side-header .menu-header > li {
+        margin-right: 40px;
+        display: inline-block; }
+        header .container .right-side-header .menu-header > li > a {
+          display: block;
+          text-decoration: none;
+          font-weight: 700;
+          color: #000;
+          -webkit-transition: color 0.5s ease;
+          transition: color 0.5s ease; }
+          header .container .right-side-header .menu-header > li > a:hover {
+            color: #722ED1; }
+
+.under-header {
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+  margin-top: 140px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.underline {
+  text-decoration: underline; }
